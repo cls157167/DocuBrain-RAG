@@ -1,0 +1,55 @@
+# 环境变量 / 密钥
+.env
+*.env
+.env.*
+!.env.example
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 虚拟环境（兼容不同名字）
+.venv/
+venv/
+env/
+ENV/
+
+# 测试/覆盖/缓存
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.mypy_cache/
+.ruff_cache/
+
+# 向量库 / 本地数据
+chroma_db/
+data/vector_db/
+
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 日志
+*.log
+logs/
+
+# 节点/其他（如果以后有）
+node_modules/

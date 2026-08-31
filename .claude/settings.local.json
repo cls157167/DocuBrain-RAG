@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip show *)",
+      "Bash(python -c \"import sys; print\\('\\\\n'.join\\(sys.path\\)\\)\")",
+      "Bash(pip list *)",
+      "Bash(pdftotext *)",
+      "Read(//d/\\\\$AAA/4、Large Models/项目/**)",
+      "Read(//tmp/**)",
+      "Bash(python -c ' *)",
+      "Bash(python3 -c ' *)",
+      "Bash(python -m pip install pymupdf)",
+      "Bash(python *)",
+      "Read(//c/Users/钟小姐/AppData/Local/Microsoft/WindowsApps/**)",
+      "Bash(where python *)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Users/钟小姐/AppData/Local/Programs/**)",
+      "Bash(ls -la \"/c/Python\"*)",
+      "Bash(cmd.exe /c 'type \"D:$AAA\\\\4、Large Models\\\\项目\\\\目录页处理方案.pdf\"')",
+      "Read(//c/Users/**)",
+      "Read(//c/ProgramData/**)",
+      "Bash(powershell -NoProfile -Command \"\n\\\\$path = Get-ChildItem -Path 'D:\\\\$AAA\\\\4、Large Models\\\\项目' -Filter '目录页处理方案.pdf' | Select-Object -ExpandProperty FullName\nWrite-Output \\\\$path\n\")"
+    ]
+  }
+}

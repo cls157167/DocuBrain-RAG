@@ -1,0 +1,499 @@
+[
+    {
+        "type": "text",
+        "text": "H3C LA2608 室内无线网关",
+        "bbox": [
+            487,
+            344,
+            899,
+            371
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "用户手册",
+        "bbox": [
+            752,
+            395,
+            900,
+            422
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "H3C",
+        "bbox": [
+            747,
+            121,
+            900,
+            153
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "杭州华三通信技术有限公司http://www.h3c.com.cn",
+        "bbox": [
+            89,
+            826,
+            299,
+            863
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "资料版本：6W100-20140227",
+        "bbox": [
+            89,
+            883,
+            294,
+            899
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Copyright © 2014 杭州华三通信技术有限公司及其许可者 版权所有，保留一切权利。",
+        "bbox": [
+            141,
+            77,
+            800,
+            93
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "未经本公司书面许可，任何单位和个人不得擅自摘抄、复制本书内容的部分或全部，并不得以任何形式传播。",
+        "bbox": [
+            141,
+            99,
+            907,
+            135
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "H3C、 、Aolynk、 、H<sup>3</sup>Care、 、TOP G、 TOPG IRF、NetPilot、Neocean、NeoVTL、SecPro、SecPoint、SecEngine、SecPath、Comware、Secware、Storware、NQA、VVG、V<sup>2</sup>G、V<sup>n</sup>G、PSPT、XGbus、N-Bus、TiGem、InnoVision、HUASAN、华三均为杭州华三通信技术有限公司的商标。对于本手册中出现的其它公司的商标、产品标识及商品名称，由各自权利人拥有。",
+        "bbox": [
+            139,
+            147,
+            909,
+            251
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "由于产品版本升级或其他原因，本手册内容有可能变更。H3C保留在没有任何通知或者提示的情况下对本手册的内容进行修改的权利。本手册仅作为使用指导，H3C尽全力在本手册中提供准确的信息，但是 H3C 并不确保手册内容完全没有错误，本手册中的所有陈述、信息和建议也不构成任何明示或暗示的担保。",
+        "bbox": [
+            141,
+            257,
+            909,
+            330
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "目 录",
+        "text_level": 2,
+        "bbox": [
+            462,
+            79,
+            539,
+            104
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1 H3C LA2608 室内无线网关用户手册 ····· ·······································································  \n1.1 概述 ········· ··································································································· 1  \n1.2 配置LA2608 与无线控制器互通 ············································································································ 1  \n1.2.1 配置LA2608 ········· ··········································································································· 1  \n1.2.2 配置运营商无线控制器 ·············································································································· 2  \n1.2.3 验证LA2608 与无线控制器是否连通 ·························································································· 3",
+        "bbox": [
+            92,
+            127,
+            902,
+            256
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "i",
+        "bbox": [
+            494,
+            948,
+            504,
+            959
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1 H3C LA2608 室内无线网关用户手册",
+        "text_level": 2,
+        "bbox": [
+            92,
+            60,
+            613,
+            85
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1.1 概述",
+        "text_level": 2,
+        "bbox": [
+            92,
+            102,
+            196,
+            123
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "H3C LA2608-GM/GU 室内无线网关（以下简称 LA2608）可以为用户提供无线服务，为了实现对设备的管理，LA2608需要通过 3G/4G网络连接到运营商无线控制器。",
+        "bbox": [
+            139,
+            138,
+            905,
+            175
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/df229fcb5e3b222c3e04ab69084b325f0e67f1de80f7d4e78b7826b543232f5d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            144,
+            188,
+            186,
+            213
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "说明",
+        "bbox": [
+            188,
+            197,
+            226,
+            213
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "目前，LA2608只支持与 H3C公司的无线控制器互通。",
+        "bbox": [
+            142,
+            224,
+            564,
+            241
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1.2 配置LA2608与无线控制器互通",
+        "text_level": 2,
+        "bbox": [
+            90,
+            282,
+            484,
+            302
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "如 图 1 所示，LA2608 安装了SIM卡，通过 3G/4G网络连接到运营商无线控制器，并向用户提供无线服务。关于LA2608的安装方法，请参见“H3C LA2608室内无线网关 快速安装指南”。",
+        "bbox": [
+            141,
+            320,
+            905,
+            356
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "图1 配置 LA2608与无线控制器互通",
+        "bbox": [
+            141,
+            362,
+            431,
+            378
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/4ccee3c380f5b5eebb16634b6395a8bb9bfc14476278ece11f5321e85f98b226.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            147,
+            391,
+            808,
+            581
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1.2.1 配置LA2608",
+        "text_level": 2,
+        "bbox": [
+            92,
+            627,
+            263,
+            643
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(1) 配置拨号访问组的拨号控制列表",
+        "bbox": [
+            142,
+            659,
+            440,
+            675
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "code",
+        "sub_type": "algorithm",
+        "code_caption": [],
+        "code_footnote": [],
+        "code_body": "<LA2608>system-view  \n[LA2608]dialer-rule 1 ip permit  \n(2) 配置 DCC 拨号",
+        "bbox": [
+            142,
+            682,
+            418,
+            733
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/957b37753e127740347a1fc8cca1d3cd84d54a55ed1d249fc14ae43def77c1c4.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            146,
+            747,
+            188,
+            771
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "dialer number命令用来配置发起呼叫的拨号串，不同运营商的拨号串不同，请用户在配置前向网络运营商获取发起呼叫的拨号串。",
+        "bbox": [
+            141,
+            781,
+            905,
+            817
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "code",
+        "sub_type": "algorithm",
+        "code_caption": [],
+        "code_footnote": [],
+        "code_body": "[LA2608]interface Cellular-Ethernet2/0   \n[LA2608-Cellular-Ethernet2/0]ip address cellular-allocated   \n[LA2608-Cellular-Ethernet2/0]dialer enable-circular   \n[LA2608-Cellular-Ethernet2/0]dialer-group 1   \n[LA2608-Cellular-Ethernet2/0]dialer timer idle 0",
+        "bbox": [
+            144,
+            850,
+            647,
+            931
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            504,
+            948,
+            517,
+            959
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "code",
+        "sub_type": "algorithm",
+        "code_caption": [],
+        "code_footnote": [],
+        "code_body": "[LA2608-Cellular-Ethernet2/0]dialer timer autodial 5   \n[LA2608-Cellular-Ethernet2/0]dialer number \\*99# autodial   \n[LA2608-Cellular-Ethernet2/0]nat outbound   \n[LA2608-Cellular-Ethernet2/0]quit   \n(3) 配置 DNS 解析功能   \n[LA2608]dns resolve   \n(4) 配置静态路由   \n[LA2608]ip route-static 0.0.0.0 0.0.0.0 Cellular-Ethernet2/0   \n(5) 指定运营商无线控制器的 IP地址   \n[LA2608] wlan ac ip 60.191.99.143",
+        "bbox": [
+            142,
+            51,
+            665,
+            237
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1.2.2 配置运营商无线控制器",
+        "text_level": 2,
+        "bbox": [
+            92,
+            248,
+            352,
+            267
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/8c3789bec91cf0b1bfc1305e07efb6be5d28185d9627bddda68d86ab6718de9b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            146,
+            289,
+            188,
+            313
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "说明",
+        "text_level": 2,
+        "bbox": [
+            189,
+            298,
+            226,
+            314
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "如下配置仅供参考，运营商可根据实际情况进行调整。",
+        "bbox": [
+            142,
+            324,
+            561,
+            340
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(1) 创建业务 VLAN (1) 创建业务 VLAN",
+        "text_level": 2,
+        "bbox": [
+            142,
+            374,
+            314,
+            390
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "code",
+        "sub_type": "algorithm",
+        "code_caption": [],
+        "code_footnote": [],
+        "code_body": "<AC>system-view  \n[AC]vlan 2  \n[AC-vlan2] quit  \n(2) 创建 WLAN-ESS 接口并加入业务 VLAN  \n[AC]interface WLAN-ESS 1  \n[AC-WLAN-ESS1]port access vlan 2  \n[AC-WLAN-ESS1]quit  \n(3) 配置明文方式的服务模板  \n[AC]wlan service-template 1 clear  \n[AC-wlan-st-1]ssid ssidh3c  \n[AC-wlan-st-1]bind WLAN-ESS 1  \n[AC-wlan-st-1]service-template enable  \nPlease wait... Done.  \n[AC-wlan-st-1]quit  \n(4) 开启自动 AP 功能  \n[AC]wlan auto-ap enable  \n[AC]wlan ap 2608 model LA2608 id 1  \n[AC-wlan-ap-2608]serial-id auto  \n[AC-wlan-ap-2608]radio 1  \n[AC-wlan-ap-2608-radio-1]service-template 1  \n[AC-wlan-ap-2608-radio-1]radio enable  \n[AC-wlan-ap-2608-radio-1]quit  \n[AC-wlan-ap-2608]quit  \n(5) 配置 VLAN 接口 IP 地址  \n[AC]interface Vlan-interface 1  \n[AC-Vlan-interface1]ip address 60.191.99.143 255.255.0.0  \n[AC-Vlan-interface1]quit  \n[AC]interface Vlan-interface 2  \n[AC-Vlan-interface2]ip address 10.249.136.1 255.255.252.0  \n[AC-Vlan-interface2]quit  \n(6) 使能 DHCP 服务，配置 DHCP 地址池",
+        "bbox": [
+            144,
+            382,
+            640,
+            941
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            504,
+            948,
+            517,
+            959
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "code",
+        "sub_type": "code",
+        "code_caption": [],
+        "code_footnote": [],
+        "code_body": "```ini\n[AC]dhcp enable\n[AC]dhcp server ip-pool vlan2\n[AC-dhcp-pool-vlan1]network 10.249.136.0 22\n[AC-dhcp-pool-vlan1]gateway-list 10.249.136.1\n[AC-dhcp-pool-vlan1]dns-list 218.201.96.130\n[AC-dhcp-pool-vlan1]quit\n```",
+        "bbox": [
+            144,
+            51,
+            532,
+            148
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "1.2.3 验证LA2608 与无线控制器是否连通",
+        "text_level": 2,
+        "bbox": [
+            92,
+            162,
+            468,
+            179
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "在无线控制器上执行 display wlan ap 命令，state 字段显示为“R/M”，表示 LA2608 与无线控制器之间已经建立连接。",
+        "bbox": [
+            141,
+            194,
+            907,
+            230
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "code",
+        "sub_type": "algorithm",
+        "code_caption": [],
+        "code_footnote": [],
+        "code_body": "<Sysname> display wlan ap all   \nTotal Number of APs configured : 1   \nTotal Number of configured APs connected : 1   \nTotal Number of auto APs connected : 0   \nAP Profiles   \nState : I = Idle, J = Join, JA = JoinAck, IL = ImageLoad   \nC = Config, R = Run, KU = KeyUpdate, KC = KeyCfm   \nM = Master, B = Backup   \nAP Name State Model Serial-ID   \nap1 R/M LA2608 036286A054000033",
+        "bbox": [
+            142,
+            238,
+            833,
+            441
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            504,
+            947,
+            517,
+            959
+        ],
+        "page_idx": 5
+    }
+]
